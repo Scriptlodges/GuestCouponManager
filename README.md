@@ -44,13 +44,13 @@ Get Data record for guestEmail used coupon code:
 
 Support:
 ---
-If you encounter any problems or bugs, please open an issue on [GitHub](https://github.com/scriptlodges/magento2-reindex/issues).
+If you encounter any problems or bugs, please open an issue on [GitHub](https://github.com/Scriptlodges/GuestCouponManager/issues).
 
 Need help setting up or want to customize this extension to meet your business needs? Please email support@scriptlodge.com and if we like your idea we will add this feature for free or at a discounted rate.
 
 Other Extensions
 ---
-[Manage Guest Checkout Coupon](https://www.scriptlodge.com/magento2/extensions/guest-coupon-manager.html) |
+[Manage Guest Checkout Coupon](https://github.com/Scriptlodges/GuestCouponManager) |
 
 © Scriptlodges Inc. | [www.scriptlodge.com](https://www.scriptlodge.com)
 
