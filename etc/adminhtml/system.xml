@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Scriptlodges LLC. All rights reserved.
+ * See COPYING.txt for license details.
+ * http://www.scriptlodge.com | matinict@gmail.com
+*/
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+    <system>
+        <tab id="scriptlodges" translate="label" sortOrder="400">
+            <label>Scriptlodges</label>
+        </tab>
+        <section id="scriptlodges_checkout" showInDefault="1" showInStore="1" showInWebsite="1" sortOrder="5" translate="label">
+            <label>Checkout</label>
+            <tab>scriptlodges</tab>
+            <resource>Scriptlodges_GuestCouponManager::scriptlodges_guestcouponmanager</resource>
+            <group id="limitguestcheckoutcoupon" translate="label" type="text" sortOrder="50" showInDefault="1" showInWebsite="1" showInStore="1">
+                <label>Limit Guest Checkout Coupon</label>
+                <attribute type="expanded">1</attribute>
+                <!-- <comment>
+                    <![CDATA[
+                    <strong>Copyright © 2024 <a href="http://www.scriptlodge.com" target="_blank">www.scriptlodge.com</a> / <a href="mailto:support@scriptlodges.com">support@scriptlodges.com</a></strong><br />
+                    Discover other must have extensions at <a href="http://www.scriptlodge.com" target="_blank">www.scriptlodge.com</a>. Thanks for choosing Scriptlodges Extensions.<br/><br/>
+                    <hr class="scriptlodges-hr" />
+                  ]]> scriptlodges_checkout/guestcouponmanager/active
+                </comment> -->
+                <!-- <field id="Scriptlodges_GuestCouponManager" translate="label" type="label" sortOrder="1" showInDefault="1" showInWebsite="0" showInStore="0">
+                    <label>Composer Version</label>
+
+                </field> -->
+                <field id="active" translate="label" type="select" sortOrder="10" showInDefault="1" showInWebsite="1" showInStore="1">
+                    <label>Enable</label>
+                    <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+                </field>
+            </group>
+        </section>
+    </system>
+</config>

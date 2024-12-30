@@ -1,0 +1,42 @@
+{
+    "name": "scriptlodges/magento2-guest-coupon-manager",
+    "description": "Manage or Restricting coupon with maximum uses for guest checkout for Magento < 2.4.x",
+    "require": {
+      "php": "~7.4.0|~8.1.0|~8.2.0|~8.3.0|~8.4.0",
+      "magento/module-backend": "100.0.*|100.1.*|100.2.*|101.0.*|102.0.*",
+      "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*|103.0.*",
+      "magepal/magento2-core": ">=1.1.11"
+    },
+    "type": "magento2-module",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "homepage": "https://www.scriptlodge.com/",
+   "support": {
+       "email": "support@scriptlodge.com",
+       "issues": "https://github.com/scriptlodges/magento2-guest-coupon-manager/issues/"
+   },
+   "authors": [
+       {
+           "name": "Abdul Matin",
+           "email": "matinict@gmail.com",
+           "homepage": "https://scriptlodge.com",
+           "role": "Leader"
+       }
+   ],
+    "config": {
+        "sort-packages": true
+    },
+    "suggest": {
+        ""
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Scriptlodges\\GuestCouponManager\\": ""
+        }
+    }
+}
